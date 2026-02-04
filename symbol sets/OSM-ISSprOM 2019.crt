@@ -85,7 +85,10 @@
 414    landuse = vineyard
 
 401    leisure = park
+520    leisure = outdoor_seating
 401    leisure = pitch
+213    leisure = pitch AND (surface = sand OR sport = beachvolleyball)
+501.5  leisure = pitch AND (surface = tartan)
 
 531    leisure = picnic_table
 
@@ -122,12 +125,15 @@
 
 532.6  highway = steps
 
+501    area:highway = footway
+
 509.1  railway ~= "" AND railway != "abandoned" AND tunnel != "yes"
 
 521    building ~= "" AND building != ruins
 
 526    man_made = cairn
 524    man_made = chimney
+501    man_made = curtyard
 508    man_made = cutline
 524    man_made = lighthouse
 524    man_made = mast
@@ -136,6 +142,7 @@
 529    man_made = pipeline AND location = overground
 526    man_made = survey_point
 524    man_made = tower
+521    man_made = tower AND building = yes
 524    man_made = water_tower
 311    man_made = water_well
 
@@ -145,6 +152,9 @@
 311    amenity = fountain
 525    amenity = hunting_stand
 501    amenity = parking
+521    amenity = parking AND parking = multi-storey
+501.1  amenity = parking_space
+501    amenity = motorcycle_parking
 709    amenity = prison
 521    amenity = shelter
 313    amenity = watering_place
