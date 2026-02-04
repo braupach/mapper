@@ -125,7 +125,7 @@
 
 532.6  highway = steps
 
-501    area:highway = footway
+501    area:highway = footway  # seems to not work here: https://www.openstreetmap.org/way/200497259
 
 509.1  railway ~= "" AND railway != "abandoned" AND tunnel != "yes"
 
@@ -133,7 +133,7 @@
 
 526    man_made = cairn
 524    man_made = chimney
-501    man_made = curtyard
+501    man_made = curtyard  # seems to not work here: https://www.openstreetmap.org/way/579584070
 508    man_made = cutline
 530    man_made = flagpole
 524    man_made = lighthouse
@@ -154,7 +154,7 @@
 525    amenity = hunting_stand
 531    amenity = lounger
 501    amenity = parking
-521    amenity = parking AND parking = multi-storey
+521    amenity = parking AND parking = multi-storey  # seems to not work here: https://www.openstreetmap.org/way/683348599
 501.1  amenity = parking_space
 501    amenity = motorcycle_parking
 709    amenity = prison
@@ -184,7 +184,7 @@
 521    tourism = alpine_hut
 531    tourism = artwork
 521    tourism = chalet
-531    tourism = information AND (information = guidepost OR information = map OR information = board)
+531    tourism = information AND (information = guidepost OR information = map OR information = board) # seems to not work here: https://www.openstreetmap.org/node/9318883239
 
 526    historic = boundary_stone
 526    historic = memorial
