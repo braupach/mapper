@@ -135,6 +135,7 @@
 524    man_made = chimney
 501    man_made = curtyard
 508    man_made = cutline
+530    man_made = flagpole
 524    man_made = lighthouse
 524    man_made = mast
 109    man_made = mound
@@ -151,6 +152,7 @@
 527    amenity = feeding_place
 311    amenity = fountain
 525    amenity = hunting_stand
+531    amenity = lounger
 501    amenity = parking
 521    amenity = parking AND parking = multi-storey
 501.1  amenity = parking_space
