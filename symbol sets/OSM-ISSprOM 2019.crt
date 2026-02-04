@@ -166,11 +166,20 @@
 511    power = line
 510    power = minor_line
 
+516    barrier = bar
 108    barrier = ditch
+710.1  barrier = entrance
 518    barrier = fence
+710.1  barrier = gate
+516    barrier = guard_rail
 410.1  barrier = hedge
 410    barrier = hedge AND (area = yes OR is_area = yes)
+710.1  barrier = lift_gate
+515    barrier = retaining_wall
+710.1  barrier = stile
+710.1  barrier = turnstile
 515    barrier = wall
+515    barrier = city_wall
 
 521    tourism = alpine_hut
 531    tourism = artwork
